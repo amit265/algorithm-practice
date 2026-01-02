@@ -4,6 +4,26 @@
 // using two poiter
 // one starting at beginning and other at the end
 
+
+
+// pseudocode
+
+// left = 0;
+// right = n - 1;
+
+// while left < right:
+
+//     swap(arr[left], arr[right])
+
+//     left++;
+//     right--;
+
+
+
+
+
+
+
 function reverseArray(arr){
     if(!Array.isArray(arr)) throw new TypeError("Input must be an array");
     if(arr.length === 0) return 0;

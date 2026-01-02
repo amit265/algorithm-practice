@@ -1,5 +1,7 @@
 // find minimum and maximum in an array
 
+
+
 function findMinMax(arr) {
     if(!Array.isArray(arr)) throw new TypeError("Input must be an array");
 
