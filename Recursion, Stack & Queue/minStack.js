@@ -33,6 +33,7 @@ class MinStack {
   }
 }
 
+// “I track extra state to avoid recomputation.”
 // time complexity: O(1) for all operations
 // space complexity: O(n) for the stacks
 
