@@ -21,7 +21,7 @@ function maxSumSubarray(arr, k) {
       windowSum -= arr[i - (k - 1)];
     }
   }
-
+  
   return maxSum;
 }
 
