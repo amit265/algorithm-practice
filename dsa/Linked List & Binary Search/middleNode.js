@@ -1,6 +1,8 @@
 // find middle node of a linked list
-    
-// example of linked list node  
+//Fast & Slow Pointers
+//Key insight:
+// One pointer moves twice as fast
+// example of linked list node
 class ListNode {
   constructor(value) {
     this.value = value;
@@ -62,4 +64,3 @@ printLinkedListFromNode(middle3); // Output: 7
 let list4 = createLinkedList([1, 2]);
 let middle4 = middleNode(list4);
 printLinkedListFromNode(middle4); // Output: 2
-
