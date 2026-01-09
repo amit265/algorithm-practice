@@ -1,0 +1,213 @@
+
+PROJECT EULER (41–70)
+DETAILED PROBLEM DESCRIPTIONS – OPTIMIZATION & PATTERNS
+=====================================================
+
+NOTE:
+-----
+These problems require more thinking than brute force.
+Each description explains:
+• What the problem is asking
+• Key concepts involved
+• What you should aim to code
+
+-----------------------------------------
+PROBLEM 41 – Pandigital prime
+-----------------------------------------
+Find the largest n-digit pandigital prime.
+Pandigital means using digits 1 to n exactly once.
+You must generate permutations and check primality efficiently.
+
+-----------------------------------------
+PROBLEM 42 – Coded triangle numbers
+-----------------------------------------
+Convert words to numerical values (A=1, B=2, …).
+Determine how many word values are triangle numbers.
+Requires word parsing + triangle number logic.
+
+-----------------------------------------
+PROBLEM 43 – Sub-string divisibility
+-----------------------------------------
+Find pandigital numbers where specific 3-digit substrings
+are divisible by given primes.
+Requires permutation generation with pruning.
+
+-----------------------------------------
+PROBLEM 44 – Pentagon numbers
+-----------------------------------------
+Find two pentagonal numbers whose sum and difference
+are also pentagonal, minimizing their difference.
+Use pentagonal formula + set lookups.
+
+-----------------------------------------
+PROBLEM 45 – Triangular, pentagonal, and hexagonal
+-----------------------------------------
+Find the next number that is triangular, pentagonal,
+and hexagonal after 40755.
+Use formula-based checking.
+
+-----------------------------------------
+PROBLEM 46 – Goldbach’s other conjecture
+-----------------------------------------
+Find the smallest odd composite number
+that cannot be written as prime + 2×square.
+Requires primes + nested checks.
+
+-----------------------------------------
+PROBLEM 47 – Distinct prime factors
+-----------------------------------------
+Find the first sequence of four consecutive integers
+each having four distinct prime factors.
+Use factor counting and sliding window.
+
+-----------------------------------------
+PROBLEM 48 – Self powers
+-----------------------------------------
+Find last ten digits of the series:
+1¹ + 2² + 3³ + … + 1000¹⁰⁰⁰.
+Use BigInt and modular arithmetic.
+
+-----------------------------------------
+PROBLEM 49 – Prime permutations
+-----------------------------------------
+Find arithmetic sequences of 4-digit primes
+that are permutations of each other.
+Requires prime generation + permutation grouping.
+
+-----------------------------------------
+PROBLEM 50 – Consecutive prime sum
+-----------------------------------------
+Find the prime below one million that can be written
+as the longest sum of consecutive primes.
+Sliding window + prefix sums.
+
+-----------------------------------------
+PROBLEM 51 – Prime digit replacements
+-----------------------------------------
+Find the smallest prime which, by replacing part of its digits,
+is part of an eight-prime value family.
+Requires pattern masking and primality testing.
+
+-----------------------------------------
+PROBLEM 52 – Permuted multiples
+-----------------------------------------
+Find the smallest integer x such that
+2x, 3x, 4x, 5x, 6x contain the same digits.
+Digit sorting and comparison.
+
+-----------------------------------------
+PROBLEM 53 – Combinatoric selections
+-----------------------------------------
+Count values of nCr for 1 ≤ n ≤ 100 that exceed one million.
+Requires combination math without overflow.
+
+-----------------------------------------
+PROBLEM 54 – Poker hands
+-----------------------------------------
+Compare poker hands and count Player 1 wins.
+Requires careful rule encoding and ranking logic.
+
+-----------------------------------------
+PROBLEM 55 – Lychrel numbers
+-----------------------------------------
+Determine how many numbers below 10,000 are Lychrel numbers.
+Reverse-and-add process with iteration limit.
+
+-----------------------------------------
+PROBLEM 56 – Powerful digit sum
+-----------------------------------------
+Find maximum digital sum of a^b for a, b < 100.
+BigInt exponentiation and digit sum.
+
+-----------------------------------------
+PROBLEM 57 – Square root convergents
+-----------------------------------------
+Count fractions where numerator has more digits than denominator
+in continued fraction expansions of √2.
+Requires fraction recurrence.
+
+-----------------------------------------
+PROBLEM 58 – Spiral primes
+-----------------------------------------
+Find side length of square spiral where prime ratio
+on diagonals falls below 10%.
+Pattern-based spiral math.
+
+-----------------------------------------
+PROBLEM 59 – XOR decryption
+-----------------------------------------
+Decrypt a message encrypted using XOR with a 3-letter key.
+Brute force keys + ASCII filtering.
+
+-----------------------------------------
+PROBLEM 60 – Prime pair sets
+-----------------------------------------
+Find lowest sum of a set of five primes
+where any two concatenate to produce another prime.
+Graph + pruning required.
+
+-----------------------------------------
+PROBLEM 61 – Cyclical figurate numbers
+-----------------------------------------
+Find a cyclic set of six 4-digit figurate numbers.
+Graph search across polygonal types.
+
+-----------------------------------------
+PROBLEM 62 – Cubic permutations
+-----------------------------------------
+Find smallest cube for which exactly five permutations
+of its digits are also cubes.
+Digit signature mapping.
+
+-----------------------------------------
+PROBLEM 63 – Powerful digit counts
+-----------------------------------------
+Count n-digit positive integers which are also nth powers.
+Mathematical bounds reduce search.
+
+-----------------------------------------
+PROBLEM 64 – Odd period square roots
+-----------------------------------------
+Count continued fractions of √n with odd period.
+Requires integer math + cycle detection.
+
+-----------------------------------------
+PROBLEM 65 – Convergents of e
+-----------------------------------------
+Find sum of digits in numerator of 100th convergent of e.
+Continued fraction construction.
+
+-----------------------------------------
+PROBLEM 66 – Diophantine equation
+-----------------------------------------
+Find value of D ≤ 1000 where minimal solution of
+x² − Dy² = 1 is maximized.
+Requires Pell’s equation approach.
+
+-----------------------------------------
+PROBLEM 67 – Maximum path sum II
+-----------------------------------------
+Same as problem 18 but with a much larger triangle.
+Dynamic programming with file input.
+
+-----------------------------------------
+PROBLEM 68 – Magic 5-gon ring
+-----------------------------------------
+Find maximum 16-digit string for a magic 5-gon ring.
+Permutation logic with constraints.
+
+-----------------------------------------
+PROBLEM 69 – Totient maximum
+-----------------------------------------
+Find n ≤ 1,000,000 for which n/φ(n) is maximized.
+Requires Euler’s totient function logic.
+
+-----------------------------------------
+PROBLEM 70 – Totient permutation
+-----------------------------------------
+Find n ≤ 10,000,000 for which φ(n) is a permutation of n
+and n/φ(n) is minimized.
+Combination of totient + digit comparison.
+
+-----------------------------------------
+END OF PHASE 2 (41–70)

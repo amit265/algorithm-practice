@@ -1,0 +1,214 @@
+
+PROJECT EULER (71–100)
+DETAILED PROBLEM DESCRIPTIONS – ADVANCED THINKING
+===============================================
+
+NOTE:
+-----
+These problems emphasize mathematical insight, graph thinking,
+dynamic programming, and careful optimization.
+Brute force will usually fail.
+
+-----------------------------------------
+PROBLEM 71 – Ordered fractions
+-----------------------------------------
+Find the fraction immediately to the left of 3/7
+among all reduced proper fractions with denominator ≤ 1,000,000.
+Requires fraction comparison and number theory reasoning.
+
+-----------------------------------------
+PROBLEM 72 – Counting fractions
+-----------------------------------------
+Count the number of reduced proper fractions for denominators ≤ 1,000,000.
+Uses Euler’s Totient function efficiently.
+
+-----------------------------------------
+PROBLEM 73 – Counting fractions in a range
+-----------------------------------------
+Count reduced proper fractions between 1/3 and 1/2
+for denominators ≤ 12,000.
+Uses Farey sequences or totient logic.
+
+-----------------------------------------
+PROBLEM 74 – Digit factorial chains
+-----------------------------------------
+Generate chains formed by repeatedly summing factorials of digits.
+Count chains with length exactly 60 before repeating.
+Use memoization for speed.
+
+-----------------------------------------
+PROBLEM 75 – Singular integer right triangles
+-----------------------------------------
+Count perimeters ≤ 1,500,000 that form exactly one integer
+right-angled triangle.
+Uses Euclid’s formula and counting.
+
+-----------------------------------------
+PROBLEM 76 – Counting summations
+-----------------------------------------
+Find the number of ways 100 can be written as a sum
+of at least two positive integers.
+Classic partition problem (dynamic programming).
+
+-----------------------------------------
+PROBLEM 77 – Prime summations
+-----------------------------------------
+Find the first number that can be written as a sum of primes
+in over 5000 different ways.
+DP with primes.
+
+-----------------------------------------
+PROBLEM 78 – Coin partitions
+-----------------------------------------
+Find the least value of n for which the number of partitions
+of n is divisible by one million.
+Uses recurrence with modular arithmetic.
+
+-----------------------------------------
+PROBLEM 79 – Passcode derivation
+-----------------------------------------
+Given partial ordering constraints, derive the shortest passcode.
+Graph + topological sorting.
+
+-----------------------------------------
+PROBLEM 80 – Square root digital expansion
+-----------------------------------------
+For irrational square roots, calculate digital sums
+of first 100 decimal digits.
+Requires high-precision arithmetic.
+
+-----------------------------------------
+PROBLEM 81 – Path sum: two ways
+-----------------------------------------
+Find minimal path sum from top-left to bottom-right
+moving only right and down.
+Dynamic programming on grid.
+
+-----------------------------------------
+PROBLEM 82 – Path sum: three ways
+-----------------------------------------
+Minimal path sum from left to right,
+moving up, down, and right.
+Graph shortest-path logic.
+
+-----------------------------------------
+PROBLEM 83 – Path sum: four ways
+-----------------------------------------
+Minimal path sum from top-left to bottom-right,
+moving in all directions.
+Dijkstra’s algorithm.
+
+-----------------------------------------
+PROBLEM 84 – Monopoly odds
+-----------------------------------------
+Compute probabilities of landing on squares
+in Monopoly using dice rolls.
+Markov chains and simulation.
+
+-----------------------------------------
+PROBLEM 85 – Counting rectangles
+-----------------------------------------
+Find grid dimensions with number of rectangles closest to two million.
+Formula-based search.
+
+-----------------------------------------
+PROBLEM 86 – Cuboid route
+-----------------------------------------
+Find smallest M such that number of integer shortest paths
+on cuboids exceeds one million.
+Geometry + counting.
+
+-----------------------------------------
+PROBLEM 87 – Prime power triples
+-----------------------------------------
+Count numbers below 50 million expressible as
+prime² + prime³ + prime⁴.
+Use sets and bounds.
+
+-----------------------------------------
+PROBLEM 88 – Product-sum numbers
+-----------------------------------------
+Find minimal product-sum numbers for sets up to size 12.
+Recursive factor generation.
+
+-----------------------------------------
+PROBLEM 89 – Roman numerals
+-----------------------------------------
+Convert Roman numerals to minimal form and count saved characters.
+String parsing + rules.
+
+-----------------------------------------
+PROBLEM 90 – Cube digit pairs
+-----------------------------------------
+Count distinct ways to label two cubes
+to display all square numbers.
+Combinatorics + symmetry handling.
+
+-----------------------------------------
+PROBLEM 91 – Right triangles with integer coordinates
+-----------------------------------------
+Count right triangles in coordinate grid.
+Geometry + gcd reasoning.
+
+-----------------------------------------
+PROBLEM 92 – Square digit chains
+-----------------------------------------
+Repeatedly replace number with sum of squares of digits.
+Count chains ending at 89.
+Memoization.
+
+-----------------------------------------
+PROBLEM 93 – Arithmetic expressions
+-----------------------------------------
+Find set of four digits that can generate longest consecutive integers
+using arithmetic operations.
+Permutation + expression evaluation.
+
+-----------------------------------------
+PROBLEM 94 – Almost equilateral triangles
+-----------------------------------------
+Find sum of perimeters of almost equilateral triangles
+with integer area.
+Number theory + Pell equations.
+
+-----------------------------------------
+PROBLEM 95 – Amicable chains
+-----------------------------------------
+Find smallest member of longest amicable chain
+with elements under one million.
+Cycle detection.
+
+-----------------------------------------
+PROBLEM 96 – Su Doku
+-----------------------------------------
+Solve multiple Sudoku puzzles and extract results.
+Backtracking + constraint propagation.
+
+-----------------------------------------
+PROBLEM 97 – Large non-Mersenne prime
+-----------------------------------------
+Find last ten digits of:
+28433 × 2^7830457 + 1.
+Use modular exponentiation.
+
+-----------------------------------------
+PROBLEM 98 – Anagramic squares
+-----------------------------------------
+Find largest square number from anagram word pairs.
+Mapping characters to digits.
+
+-----------------------------------------
+PROBLEM 99 – Largest exponential
+-----------------------------------------
+Determine which base-exponent pair is largest
+using logarithmic comparison.
+
+-----------------------------------------
+PROBLEM 100 – Arranged probability
+-----------------------------------------
+Find number of blue discs such that probability
+of drawing two blue discs is exactly 1/2.
+Diophantine equation recurrence.
+
+-----------------------------------------
+END OF PHASE 3 (71–100)
