@@ -1,0 +1,265 @@
+
+PROJECT EULER (1–40)
+DETAILED PROBLEM DESCRIPTIONS – FOR CODING
+=========================================
+
+NOTE:
+-----
+Each problem below includes:
+• What the problem is asking
+• A simple example (when helpful)
+• What you are expected to code (logic-wise)
+
+-----------------------------------------
+PROBLEM 1 – Multiples of 3 or 5
+-----------------------------------------
+Find the sum of all natural numbers below 1000 that are divisible by 3 or 5.
+Example: Below 10 → 3, 5, 6, 9 → sum = 23
+You must loop numbers, check divisibility, and accumulate sum.
+
+-----------------------------------------
+PROBLEM 2 – Even Fibonacci numbers
+-----------------------------------------
+Generate Fibonacci numbers and sum only the even-valued terms
+whose value does not exceed 4 million.
+Teaches sequence generation and conditional filtering.
+
+-----------------------------------------
+PROBLEM 3 – Largest prime factor
+-----------------------------------------
+Find the largest prime factor of a large number (600851475143).
+Requires factorization and optimization (checking up to √n).
+
+-----------------------------------------
+PROBLEM 4 – Largest palindrome product
+-----------------------------------------
+Find the largest palindrome made from the product of two 3-digit numbers.
+Palindrome = reads same forward and backward.
+Requires nested loops + palindrome check.
+
+-----------------------------------------
+PROBLEM 5 – Smallest multiple
+-----------------------------------------
+Find the smallest positive number evenly divisible by all numbers from 1 to 20.
+Best solved using LCM, not brute force.
+
+-----------------------------------------
+PROBLEM 6 – Sum square difference
+-----------------------------------------
+Find the difference between:
+(square of sum of first 100 numbers) and (sum of squares).
+Math simplification encouraged.
+
+-----------------------------------------
+PROBLEM 7 – 10001st prime
+-----------------------------------------
+Find the 10001st prime number.
+Requires prime checking or sieve.
+
+-----------------------------------------
+PROBLEM 8 – Largest product in a series
+-----------------------------------------
+Find the greatest product of 13 adjacent digits in a 1000-digit number.
+Sliding window logic.
+
+-----------------------------------------
+PROBLEM 9 – Special Pythagorean triplet
+-----------------------------------------
+Find a, b, c such that:
+a² + b² = c² and a + b + c = 1000.
+Return a × b × c.
+
+-----------------------------------------
+PROBLEM 10 – Summation of primes
+-----------------------------------------
+Find the sum of all primes below 2 million.
+Sieve of Eratosthenes strongly recommended.
+
+-----------------------------------------
+PROBLEM 11 – Largest product in a grid
+-----------------------------------------
+Find the greatest product of four adjacent numbers
+in a 20×20 grid (horizontal, vertical, diagonal).
+
+-----------------------------------------
+PROBLEM 12 – Highly divisible triangular number
+-----------------------------------------
+Find the first triangular number with over 500 divisors.
+Requires divisor counting optimization.
+
+-----------------------------------------
+PROBLEM 13 – Large sum
+-----------------------------------------
+Add 100 large (50-digit) numbers and return first 10 digits.
+BigInt usage recommended.
+
+-----------------------------------------
+PROBLEM 14 – Longest Collatz sequence
+-----------------------------------------
+For numbers below 1 million, find which produces the longest Collatz chain.
+Use memoization for speed.
+
+-----------------------------------------
+PROBLEM 15 – Lattice paths
+-----------------------------------------
+Count routes through a 20×20 grid moving only right or down.
+Combinatorics or DP solution.
+
+-----------------------------------------
+PROBLEM 16 – Power digit sum
+-----------------------------------------
+Find the sum of digits of 2¹⁰⁰⁰.
+BigInt and digit handling.
+
+-----------------------------------------
+PROBLEM 17 – Number letter counts
+-----------------------------------------
+Count letters used if numbers 1–1000 are written in words.
+(Spaces and hyphens ignored.)
+
+-----------------------------------------
+PROBLEM 18 – Maximum path sum I
+-----------------------------------------
+Find the maximum total from top to bottom of a triangle of numbers.
+Classic dynamic programming.
+
+-----------------------------------------
+PROBLEM 19 – Counting Sundays
+-----------------------------------------
+Count how many Sundays fell on the first of the month during 20th century.
+Date logic without libraries.
+
+-----------------------------------------
+PROBLEM 20 – Factorial digit sum
+-----------------------------------------
+Find sum of digits of 100!.
+BigInt + digit extraction.
+
+-----------------------------------------
+PROBLEM 21 – Amicable numbers
+-----------------------------------------
+Find sum of all amicable numbers under 10000.
+Requires divisor sums.
+
+-----------------------------------------
+PROBLEM 22 – Names scores
+-----------------------------------------
+Sort names alphabetically, multiply name score by position.
+String handling + sorting.
+
+-----------------------------------------
+PROBLEM 23 – Non-abundant sums
+-----------------------------------------
+Find numbers that cannot be written as sum of two abundant numbers.
+Set logic + optimization.
+
+-----------------------------------------
+PROBLEM 24 – Lexicographic permutations
+-----------------------------------------
+Find the millionth permutation of digits 0–9.
+Factorial number system approach.
+
+-----------------------------------------
+PROBLEM 25 – 1000-digit Fibonacci number
+-----------------------------------------
+Find index of first Fibonacci number with 1000 digits.
+BigInt Fibonacci.
+
+-----------------------------------------
+PROBLEM 26 – Reciprocal cycles
+-----------------------------------------
+Find value of d < 1000 for which 1/d has longest recurring cycle.
+Long division simulation.
+
+-----------------------------------------
+PROBLEM 27 – Quadratic primes
+-----------------------------------------
+Find quadratic formula producing maximum primes.
+Brute force with pruning.
+
+-----------------------------------------
+PROBLEM 28 – Number spiral diagonals
+-----------------------------------------
+Sum diagonals in a 1001×1001 spiral.
+Pattern recognition, no grid needed.
+
+-----------------------------------------
+PROBLEM 29 – Distinct powers
+-----------------------------------------
+Count distinct values of a^b for 2 ≤ a,b ≤ 100.
+Use Set + BigInt.
+
+-----------------------------------------
+PROBLEM 30 – Digit fifth powers
+-----------------------------------------
+Find numbers equal to sum of fifth powers of their digits.
+Example: 4150 = 4⁵ + 1⁵ + 5⁵ + 0⁵.
+Determine reasonable upper bound first.
+
+-----------------------------------------
+PROBLEM 31 – Coin sums
+-----------------------------------------
+How many ways can £2 be made using UK coins?
+Order does NOT matter.
+Dynamic programming problem.
+
+-----------------------------------------
+PROBLEM 32 – Pandigital products
+-----------------------------------------
+Find products whose multiplicand/multiplier/product
+use digits 1–9 exactly once.
+Example: 39 × 186 = 7254.
+
+-----------------------------------------
+PROBLEM 33 – Digit cancelling fractions
+-----------------------------------------
+Find non-trivial fractions where cancelling digits
+incorrectly still gives correct result.
+Multiply all and reduce final fraction.
+
+-----------------------------------------
+PROBLEM 34 – Digit factorials
+-----------------------------------------
+Find numbers equal to sum of factorial of digits.
+Example: 145 = 1! + 4! + 5!.
+Precompute factorials.
+
+-----------------------------------------
+PROBLEM 35 – Circular primes
+-----------------------------------------
+A prime that remains prime under all digit rotations.
+Example: 197 → 197, 971, 719.
+Use sieve + rotations.
+
+-----------------------------------------
+PROBLEM 36 – Double-base palindromes
+-----------------------------------------
+Find numbers < 1 million palindromic in base 10 and base 2.
+Example: 585.
+
+-----------------------------------------
+PROBLEM 37 – Truncatable primes
+-----------------------------------------
+Primes that remain prime when digits removed left-to-right and right-to-left.
+Requires filtering and primality checking.
+
+-----------------------------------------
+PROBLEM 38 – Pandigital multiples
+-----------------------------------------
+Concatenate multiples of a number to form 1–9 pandigital.
+Find maximum such number.
+
+-----------------------------------------
+PROBLEM 39 – Integer right triangles
+-----------------------------------------
+For p ≤ 1000, find perimeter with most right-angle triangles.
+Nested loops with constraints.
+
+-----------------------------------------
+PROBLEM 40 – Champernowne’s constant
+-----------------------------------------
+Construct fractional constant by concatenating integers.
+Find product of digits at given positions.
+
+-----------------------------------------
+END OF PHASE 1 (1–40)
