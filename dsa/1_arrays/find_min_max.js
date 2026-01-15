@@ -23,4 +23,3 @@ function findMinMax(arr) {
 console.log(findMinMax([3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5])); // { min: 1, max: 9 }
 console.log(findMinMax([-10, -20, 0, 10, 20])); // { min: -20, max: 20 }
 console.log(findMinMax([42])); // { min: 42, max: 42 }
-console.log(findMinMax([])); // Error: Array is empty
