@@ -12,7 +12,6 @@ function isArraySorted(arr) {
 
 console.log(isArraySorted([1, 2, 3, 4, 5])); // true
 
-console.log(isArraySorted([5, 3, 4, 1, 2])); // false
 
 console.log(isArraySorted([])); // true
 
