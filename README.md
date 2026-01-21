@@ -94,7 +94,10 @@ and notes explaining the thought process.
 
 -   **30DayDSAChallenge**:
     -   `containsDuplicate.js`: Checks if an array contains duplicate values.
+    -   `longestCommonPrefix.js`: Finds the longest common prefix string amongst an array of strings.
+    -   `maxProfit.js`: Finds the maximum profit from a single buy-sell transaction.
     -   `maxSubArray.js`: Finds the contiguous subarray with the largest sum using Kadane's algorithm.
+    -   `moveZeroes.js`: Moves all zeros to the end of an array.
     -   `productOfArrayExceptSelf.js`: Calculates the product of all elements in an array except self.
     -   `reverseString.js`: Reverses a string using a two-pointer approach.
     -   `twoSum.js`: Finds two numbers in an array that add up to a specific target sum.
