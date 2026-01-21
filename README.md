@@ -93,39 +93,39 @@ and notes explaining the thought process.
 ### Namaste Dev
 
 -   **30DayDSAChallenge**:
-    -   1. [`containsDuplicate.js`](./namaste-dev/30DayDSAChallenge/containsDuplicate.js): Checks if an array contains duplicate values.
-    -   2. [`longestCommonPrefix.js`](./namaste-dev/30DayDSAChallenge/longestCommonPrefix.js): Finds the longest common prefix string amongst an array of strings.
-    -   3. [`maxProfit.js`](./namaste-dev/30DayDSAChallenge/maxProfit.js): Finds the maximum profit from a single buy-sell transaction.
-    -   4. [`maxSubArray.js`](./namaste-dev/30DayDSAChallenge/maxSubArray.js): Finds the contiguous subarray with the largest sum using Kadane's algorithm.
-    -   5. [`moveZeroes.js`](./namaste-dev/30DayDSAChallenge/moveZeroes.js): Moves all zeros to the end of an array.
-    -   6. [`productOfArrayExceptSelf.js`](./namaste-dev/30DayDSAChallenge/productOfArrayExceptSelf.js): Calculates the product of all elements in an array except self.
-    -   7. [`reverseString.js`](./namaste-dev/30DayDSAChallenge/reverseString.js): Reverses a string using a two-pointer approach.
-    -   8. [`twoSum.js`](./namaste-dev/30DayDSAChallenge/twoSum.js): Finds two numbers in an array that add up to a specific target sum.
-    -   9. [`validAnagram.js`](./namaste-dev/30DayDSAChallenge/validAnagram.js): Checks if two strings are anagrams of each other.
-    -   10. [`validPalindrome.js`](./namaste-dev/30DayDSAChallenge/validPalindrome.js): Checks if a string is a palindrome, ignoring non-alphanumeric characters and case.
+    1. [`containsDuplicate.js`](./namaste-dev/30DayDSAChallenge/containsDuplicate.js): Checks if an array contains duplicate values.
+    2. [`longestCommonPrefix.js`](./namaste-dev/30DayDSAChallenge/longestCommonPrefix.js): Finds the longest common prefix string amongst an array of strings.
+    3. [`maxProfit.js`](./namaste-dev/30DayDSAChallenge/maxProfit.js): Finds the maximum profit from a single buy-sell transaction.
+    4. [`maxSubArray.js`](./namaste-dev/30DayDSAChallenge/maxSubArray.js): Finds the contiguous subarray with the largest sum using Kadane's algorithm.
+    5. [`moveZeroes.js`](./namaste-dev/30DayDSAChallenge/moveZeroes.js): Moves all zeros to the end of an array.
+    6. [`productOfArrayExceptSelf.js`](./namaste-dev/30DayDSAChallenge/productOfArrayExceptSelf.js): Calculates the product of all elements in an array except self.
+    7. [`reverseString.js`](./namaste-dev/30DayDSAChallenge/reverseString.js): Reverses a string using a two-pointer approach.
+    8. [`twoSum.js`](./namaste-dev/30DayDSAChallenge/twoSum.js): Finds two numbers in an array that add up to a specific target sum.
+    9. [`validAnagram.js`](./namaste-dev/30DayDSAChallenge/validAnagram.js): Checks if two strings are anagrams of each other.
+    10. [`validPalindrome.js`](./namaste-dev/30DayDSAChallenge/validPalindrome.js): Checks if a string is a palindrome, ignoring non-alphanumeric characters and case.
 
 ### Project Euler
 
 -   **Phase 1 (1-40)**:
     -   `project_euler_1_to_40_detailed.txt`
     -   **1-10**:
-        -   1. [`fiboEvenSum.js`](./project-euler/phase-1/1-10/fiboEvenSum.js): Calculates the sum of even-valued Fibonacci numbers up to a limit.
-        -   2. [`largestPalindromeProduct.js`](./project-euler/phase-1/1-10/largestPalindromeProduct.js): Finds the largest palindrome made from the product of two n-digit numbers.
-        -   3. [`largestPrimeFactor.js`](./project-euler/phase-1/1-10/largestPrimeFactor.js): Finds the largest prime factor of a given number.
-        -   4. [`largestProductinaSeries.js`](./project-euler/phase-1/1-10/largestProductinaSeries.js): Finds the largest product of k adjacent digits in a number string.
-        -   5. [`multiplesOf3Or5.js`](./project-euler/phase-1/1-10/multiplesOf3Or5.js): Finds the sum of all multiples of 3 or 5 below a given number.
-        -   6. [`nthPrime.js`](./project-euler/phase-1/1-10/nthPrime.js): Finds the nth prime number.
-        -   7. [`primeSummation.js`](./project-euler/phase-1/1-10/primeSummation.js): Calculates the sum of all prime numbers below a given number.
-        -   8. [`smallestMult.js`](./project-euler/phase-1/1-10/smallestMult.js): Finds the smallest positive number divisible by all numbers from 1 to n.
-        -   9. [`specialPythagoreanTriplet.js`](./project-euler/phase-1/1-10/specialPythagoreanTriplet.js): Finds the product of the Pythagorean triplet for which a + b + c = n.
-        -   10. [`sumSquareDifference.js`](./project-euler/phase-1/1-10/sumSquareDifference.js): Calculates the difference between the square of the sum and the sum of the squares of the first n natural numbers.
+        1. [`fiboEvenSum.js`](./project-euler/phase-1/1-10/fiboEvenSum.js): Calculates the sum of even-valued Fibonacci numbers up to a limit.
+        2. [`largestPalindromeProduct.js`](./project-euler/phase-1/1-10/largestPalindromeProduct.js): Finds the largest palindrome made from the product of two n-digit numbers.
+        3. [`largestPrimeFactor.js`](./project-euler/phase-1/1-10/largestPrimeFactor.js): Finds the largest prime factor of a given number.
+        4. [`largestProductinaSeries.js`](./project-euler/phase-1/1-10/largestProductinaSeries.js): Finds the largest product of k adjacent digits in a number string.
+        5. [`multiplesOf3Or5.js`](./project-euler/phase-1/1-10/multiplesOf3Or5.js): Finds the sum of all multiples of 3 or 5 below a given number.
+        6. [`nthPrime.js`](./project-euler/phase-1/1-10/nthPrime.js): Finds the nth prime number.
+        7. [`primeSummation.js`](./project-euler/phase-1/1-10/primeSummation.js): Calculates the sum of all prime numbers below a given number.
+        8. [`smallestMult.js`](./project-euler/phase-1/1-10/smallestMult.js): Finds the smallest positive number divisible by all numbers from 1 to n.
+        9. [`specialPythagoreanTriplet.js`](./project-euler/phase-1/1-10/specialPythagoreanTriplet.js): Finds the product of the Pythagorean triplet for which a + b + c = n.
+        10. [`sumSquareDifference.js`](./project-euler/phase-1/1-10/sumSquareDifference.js): Calculates the difference between the square of the sum and the sum of the squares of the first n natural numbers.
     -   **11-20**:
-        -   1. [`divisibleTriangleNumber.js`](./project-euler/phase-1/11-20/divisibleTriangleNumber.js): Finds the first triangle number to have over n divisors.
-        -   2. [`largestGridProduct.js`](./project-euler/phase-1/11-20/largestGridProduct.js): Finds the largest product of four adjacent numbers in a 20×20 grid.
-        -   3. [`largeSum.js`](./project-euler/phase-1/11-20/largeSum.js): Finds the first ten digits of the sum of one-hundred 50-digit numbers.
-        -   4. [`latticePaths.js`](./project-euler/phase-1/11-20/latticePaths.js): Calculates the number of routes through an n×n grid.
-        -   5. [`longestCollatzSequence.js`](./project-euler/phase-1/11-20/longestCollatzSequence.js): Finds the starting number under one million that produces the longest Collatz sequence.
-        -   6. [`powerDigitSum.js`](./project-euler/phase-1/11-20/powerDigitSum.js): Calculates the sum of the digits of the number 2^n.
+        1. [`divisibleTriangleNumber.js`](./project-euler/phase-1/11-20/divisibleTriangleNumber.js): Finds the first triangle number to have over n divisors.
+        2. [`largestGridProduct.js`](./project-euler/phase-1/11-20/largestGridProduct.js): Finds the largest product of four adjacent numbers in a 20×20 grid.
+        3. [`largeSum.js`](./project-euler/phase-1/11-20/largeSum.js): Finds the first ten digits of the sum of one-hundred 50-digit numbers.
+        4. [`latticePaths.js`](./project-euler/phase-1/11-20/latticePaths.js): Calculates the number of routes through an n×n grid.
+        5. [`longestCollatzSequence.js`](./project-euler/phase-1/11-20/longestCollatzSequence.js): Finds the starting number under one million that produces the longest Collatz sequence.
+        6. [`powerDigitSum.js`](./project-euler/phase-1/11-20/powerDigitSum.js): Calculates the sum of the digits of the number 2^n.
     -   **21-30**:
         -   ...
     -   **31-40**:
