@@ -18,8 +18,11 @@
 
 
 function productOfArrayExceptSelf(nums) {
+    // input ----> [1, 2, 3, 4]
     const n = nums.length;
     const result = new Array(n).fill(1);
+   
+    //step 1 -----> [1, 1, 1, 1]
     console.log(result)
 
     // calculate left product
@@ -30,11 +33,15 @@ function productOfArrayExceptSelf(nums) {
         leftProduct *= nums[i];
     }
 
+   // step 2 ------>  [1, 1, 2, 6]
+
     let rightProduct = 1;
     for(let i = n - 1; i >= 0; i--){
         result[i] *= rightProduct;
         rightProduct *= nums[i];
     }
+
+    // step 3 ----> [24, 12, 8, 6]
 
     return result;
 }
