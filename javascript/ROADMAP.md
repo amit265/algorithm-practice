@@ -1,5 +1,4 @@
 # JavaScript Programming Practice Roadmap
-**Last Updated:** January 23, 2026
 **Goal:** Daily practice to refine understanding of JavaScript logic and data structures.
 
 ---
