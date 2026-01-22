@@ -1,5 +1,5 @@
 # JavaScript Programming Practice Roadmap
-**Goal:** Daily practice to refine understanding of JavaScript logic and data structures.
+**Goal:** Daily practice to refine understanding of JavaScript logic and data structures
 
 ---
 
