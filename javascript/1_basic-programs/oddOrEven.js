@@ -1,4 +1,4 @@
-//check odd or even
+//check odd or evencode
 
 function oddOrEven(n) {
     return n % 2 === 0;
