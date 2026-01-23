@@ -38,3 +38,19 @@ q = p - q;
 p = p - q;
 
 console.log(`after swapping p = ${p} and q = ${q}`)
+
+
+
+// Using XOR Bitwise Operator
+
+
+let r = 5;
+let s = 10;
+
+console.log("Before swapping: r =", r, "s =", s);
+
+r = r ^ s;
+s = r ^ s;
+r = r ^ s;
+
+console.log("After swapping: r =", r, "s =", s);
