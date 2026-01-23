@@ -94,15 +94,33 @@ and notes explaining the thought process.
 
 -   **30DayDSAChallenge**:
     1. [`containsDuplicate.js`](./namaste-dev/30DayDSAChallenge/containsDuplicate.js): Checks if an array contains duplicate values.
-    2. [`longestCommonPrefix.js`](./namaste-dev/30DayDSAChallenge/longestCommonPrefix.js): Finds the longest common prefix string amongst an array of strings.
-    3. [`maxProfit.js`](./namaste-dev/30DayDSAChallenge/maxProfit.js): Finds the maximum profit from a single buy-sell transaction.
-    4. [`maxSubArray.js`](./namaste-dev/30DayDSAChallenge/maxSubArray.js): Finds the contiguous subarray with the largest sum using Kadane's algorithm.
-    5. [`moveZeroes.js`](./namaste-dev/30DayDSAChallenge/moveZeroes.js): Moves all zeros to the end of an array.
-    6. [`productOfArrayExceptSelf.js`](./namaste-dev/30DayDSAChallenge/productOfArrayExceptSelf.js): Calculates the product of all elements in an array except self.
-    7. [`reverseString.js`](./namaste-dev/30DayDSAChallenge/reverseString.js): Reverses a string using a two-pointer approach.
-    8. [`twoSum.js`](./namaste-dev/30DayDSAChallenge/twoSum.js): Finds two numbers in an array that add up to a specific target sum.
-    9. [`validAnagram.js`](./namaste-dev/30DayDSAChallenge/validAnagram.js): Checks if two strings are anagrams of each other.
-    10. [`validPalindrome.js`](./namaste-dev/30DayDSAChallenge/validPalindrome.js): Checks if a string is a palindrome, ignoring non-alphanumeric characters and case.
+    2. [`firstUniqueChar.js`](./namaste-dev/30DayDSAChallenge/firstUniqueChar.js): Finds the first unique character in a string.
+    3. [`intersection.js`](./namaste-dev/30DayDSAChallenge/intersection.js): Finds the intersection of two arrays.
+    4. [`longestCommonPrefix.js`](./namaste-dev/30DayDSAChallenge/longestCommonPrefix.js): Finds the longest common prefix string amongst an array of strings.
+    5. [`maxProfit.js`](./namaste-dev/30DayDSAChallenge/maxProfit.js): Finds the maximum profit from a single buy-sell transaction.
+    6. [`maxSubArray.js`](./namaste-dev/30DayDSAChallenge/maxSubArray.js): Finds the contiguous subarray with the largest sum using Kadane's algorithm.
+    7. [`moveZeroes.js`](./namaste-dev/30DayDSAChallenge/moveZeroes.js): Moves all zeros to the end of an array.
+    8. [`productOfArrayExceptSelf.js`](./namaste-dev/30DayDSAChallenge/productOfArrayExceptSelf.js): Calculates the product of all elements in an array except self.
+    9. [`removeDuplicates.js`](./namaste-dev/30DayDSAChallenge/removeDuplicates.js): Removes duplicates from an array.
+    10. [`reverseString.js`](./namaste-dev/30DayDSAChallenge/reverseString.js): Reverses a string using a two-pointer approach.
+    11. [`twoSum.js`](./namaste-dev/30DayDSAChallenge/twoSum.js): Finds two numbers in an array that add up to a specific target sum.
+    12. [`validAnagram.js`](./namaste-dev/30DayDSAChallenge/validAnagram.js): Checks if two strings are anagrams of each other.
+    13. [`validPalindrome.js`](./namaste-dev/30DayDSAChallenge/validPalindrome.js): Checks if a string is a palindrome, ignoring non-alphanumeric characters and case.
+
+### JavaScript
+
+-   **1_basic-programs**:
+    -   [`addFloatNumber.js`](./javascript/1_basic-programs/addFloatNumber.js): Adds two floating-point numbers.
+    -   [`addTwoNumber.js`](./javascript/1_basic-programs/addTwoNumber.js): Adds two numbers.
+    -   [`areaOfTriangle.js`](./javascript/1_basic-programs/areaOfTriangle.js): Calculates the area of a triangle.
+    -   [`armstrongNumber.js`](./javascript/1_basic-programs/armstrongNumber.js): Checks if a number is an Armstrong number.
+    -   [`checkNumber.js`](./javascript/1_basic-programs/checkNumber.js): Checks if a number is positive, negative, or zero.
+    -   [`convertTemp.js`](./javascript/1_basic-programs/convertTemp.js): Converts Celsius to Fahrenheit.
+    -   [`multiply.js`](./javascript/1_basic-programs/multiply.js): Multiplies two numbers.
+    -   [`oddOrEven.js`](./javascript/1_basic-programs/oddOrEven.js): Checks if a number is odd or even.
+    -   [`palindromeNumber.js`](./javascript/1_basic-programs/palindromeNumber.js): Checks if a number is a palindrome.
+    -   [`sumOfNaturalNumber.js`](./javascript/1_basic-programs/sumOfNaturalNumber.js): Calculates the sum of natural numbers.
+    -   [`swapVariable.js`](./javascript/1_basic-programs/swapVariable.js): Swaps two variables.
 
 ### Project Euler
 
