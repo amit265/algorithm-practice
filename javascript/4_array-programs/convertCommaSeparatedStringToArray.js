@@ -62,7 +62,7 @@
   console.log(a);
 }
 
-// Case 2: Extra Spaces
+// Case 2: ExtraSpaces
 
 {
   const s = " apple , banana , cherry ";
