@@ -1,6 +1,6 @@
 // 27. Split an Array into Chunks
 
-// 1. Using slice() Method
+// 1. Using slice() Method 
 
 {
   let a = [10, 20, 30, 40, 50, 60, 70];
