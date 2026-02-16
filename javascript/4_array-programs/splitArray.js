@@ -12,7 +12,7 @@
   console.log("Array 1 :" + a1 + "\nArray 2: " + a2);
 }
 
-// 2. Using splice() Method
+// 2. Using splice() Method 
 
 {
   let a = [10, 20, 30, 40, 50, 60, 70, 80];
