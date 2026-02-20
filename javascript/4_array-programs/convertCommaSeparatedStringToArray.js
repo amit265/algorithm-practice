@@ -1,4 +1,4 @@
-// JavaScript - Convert Comma Separated String To Array
+// JavaScript - 28. Convert Comma Separated String to Array
 
 // 1. Using the split() Method (Most Common)
 
