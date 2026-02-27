@@ -36,3 +36,24 @@
   console.log("Original Array:", arr1);
   console.log("Array after Left Rotate by one :", result);
 }
+
+// Approach 3: Using shift() and push() method
+
+{
+  function ratationalArray(arr) {
+    if (arr.length <= 1) {
+      return arr;
+    }
+
+    let elem1 = arr.shift();
+    arr.push(elem1);
+
+    return arr;
+  }
+
+  let arr1 = [15, 16, 17, 18, 19];
+  let result = ratationalArray([...arr1]);
+
+  console.log("Original Array:", arr1);
+  console.log("Array after Left Rotation:", result);
+}
