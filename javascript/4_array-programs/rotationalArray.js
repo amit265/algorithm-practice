@@ -72,3 +72,55 @@
   const arr = [1, 2, 3, 4, 5];
   console.log("Rotated Array:", leftRotateByOne(arr));
 }
+
+// Approach 5: Using destructuring assignment and the spread operator
+
+{
+  function leftRotateByOne(arr) {
+    if (arr.length <= 1) {
+      return arr;
+    }
+
+    const [first, ...rest] = arr;
+    const [firsts, ...third] = arr;
+    console.log([firsts, ...third]);
+    return [...rest, first];
+  }
+
+  const arr = [1, 2, 3, 4, 5];
+  console.log("Rotated Array", leftRotateByOne(arr));
+}
+
+// Approach 6: Using the reduce() Method
+
+{
+  function leftRotateByOneUsingReduce(arr) {
+    if (arr.length <= 1) {
+      return arr;
+    }
+    console.log([...arr.slice(1)]);
+    return [...arr.slice(1).reduce((acc, curr) => [...acc, curr], []), arr[0]];
+  }
+  const arr = [6, 7, 8, 9, 10];
+  const result = leftRotateByOneUsingReduce(arr);
+  console.log("original array = ", arr);
+  console.log("array after left rotation =", result);
+}
+
+// Approach 7: Using Array destructuring and Array.prototype.concat()
+
+{
+  function leftRotateByOne(arr) {
+    if (arr.length <= 1) {
+      return arr;
+    }
+
+    const [first, ...rest] = arr;
+    return rest.concat(first);
+  }
+
+  const array = [10, 20, 30, 40, 50];
+  console.log("original array:", array);
+  const rotatedArray = leftRotateByOne(arr);
+  console.log("Array after left rotate by one:", rotatedArray);
+}
