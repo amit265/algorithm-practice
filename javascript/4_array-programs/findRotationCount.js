@@ -24,3 +24,33 @@
   let output = findRotationCount(inputArray, 0, inputArray.length - 1);
   console.log("roation count is: ", output);
 }
+
+// Approach 2: Using Modulo Operation Approach
+
+{
+  function rotationCountUsingModuloOperation(arrInput) {
+    let tempVar = arrInput.length;
+    let minimumIndex = 0;
+    let minimumValue = arrInput[0];
+    for (let i = 1; i < tempVar; i++) {
+      if (arrInput[i] < minimumValue) {
+        minimumValue = arrInput[i];
+        minimumIndex = i;
+      }
+    }
+
+    var rotationCountValue = minimumIndex % tempVar;
+    return rotationCountValue;
+  }
+
+  let inputArray = [6, 7, 8, 1, 2, 3, 4, 5];
+  let output = rotationCountUsingModuloOperation(inputArray);
+  console.log("Rotation count is: ", output);
+}
+
+
+
+// Approach 3: Using Repeated Concatenation and Substring
+
+{
+}
