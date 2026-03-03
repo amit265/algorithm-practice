@@ -48,10 +48,52 @@
   console.log("Rotation count is: ", output);
 }
 
-
-
-// Approach 3: Using Repeated Concatenation and Substring 
+// Approach 3: Using Repeated Concatenation and Substring
 
 {
-  
+  function rotationCountUsingConcat(arrInput) {
+    const dupArray = arrInput.concat(arrInput);
+    const sortedSubstr = dupArray.slice().sort((a, b) => a - b);
+    const rotCountVal = dupArray.indexOf(sortedSubstr[0]);
+    return rotCountVal;
+  }
+  const inputArr = [15, 18, 2, 3, 6, 12];
+  const output = rotationCountUsingConcat(inputArr);
+  console.log("Rotation Count is:", output);
+}
+
+// Approach 4: Two-Pointer Approach
+
+{
+  function findRotationCount(arr) {
+    let start = 0;
+    let end = arr.length - 1;
+
+    while (start <= end) {
+      if (arr[start] <= arr[end]) {
+        return start;
+      }
+
+      let mid = Math.floor((start + end) / 2);
+      let next = (mid + 1) % arr.length;
+      let prev = (mid + arr.length - 1) % arr.length;
+
+      if (arr[mid] <= arr[next] && arr[mid] <= arr[prev]) {
+        return mid;
+      }
+
+      // Decide the side to search
+      if (arr[mid] >= arr[start]) {
+        // The rotation point is in the right half
+        start = mid + 1;
+      } else {
+        // The rotation point is in the left half
+        end = mid - 1;
+      }
+    }
+    return 0;
+  }
+  const rotatedArray = [4, 5, 6, 7, 1, 2, 3];
+  const rotationCount = findRotationCount(rotatedArray);
+  console.log("Rotation count:", rotationCount);
 }
