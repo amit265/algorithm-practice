@@ -84,10 +84,10 @@
 
       // Decide the side to search
       if (arr[mid] >= arr[start]) {
-        // The rotation point is in the right half
+        // The rotation point is in the right half   
         start = mid + 1;
       } else {
-        // The rotation point is in the left half 
+        // The rotation point is in the left half  
         end = mid - 1;
       }
     }
