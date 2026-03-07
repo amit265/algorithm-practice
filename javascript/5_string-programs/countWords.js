@@ -1,6 +1,6 @@
 // 1. Count Words of a String
 
-// 1. Using split() Method
+// 1. Using split() Method 
 
 {
   const count = (s) => s.trim().split(/\s+/).length;
