@@ -66,3 +66,4 @@
   const s = "Hello i am not amit";
   console.log(count(s));
 }
+
