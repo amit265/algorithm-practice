@@ -1,6 +1,6 @@
 // 5. Check if a String Starts With Another String
 
-// 1. Using String.startsWith() Method
+// 1. Using String.startsWith() Method 
 
 {
   let s = "Hello WOrld";
