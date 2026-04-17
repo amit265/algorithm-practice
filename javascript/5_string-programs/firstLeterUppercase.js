@@ -16,7 +16,7 @@
   console.log(s2);
 }
 
-// 3. Using Template Literals and slice() Method
+// 3. Using Template Literals and slice() Method 
 
 {
   const s1 = "javascript";
