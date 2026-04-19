@@ -5,7 +5,7 @@
 {
   const s1 = "javascript sdsd";
   const s2 = s1.charAt(0).toUpperCase() + s1.slice(1);
-  console.log(s2);
+  console.log(s2); 
 }
 
 // 2. Using JavaScript replace() Method 
