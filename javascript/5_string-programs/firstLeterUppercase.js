@@ -8,7 +8,7 @@
   console.log(s2); 
 }
 
-// 2. Using JavaScript replace() Method 
+// 2. Using JavaScript replace() Method  
 
 {
   const s1 = "javscript";
