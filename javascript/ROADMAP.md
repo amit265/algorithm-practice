@@ -131,7 +131,7 @@
 24. Generate All Combinations of a String
 25. Find Unique Characters of a String
 26. Convert User Input String into Regular Expression
-27. Strip All Non-numeric Characters from String
+27. Convert Comma Separated String To Array
 28. Convert String to Title Case
 29. Remove All Non-ASCII Characters
 30. Convert String into Float
