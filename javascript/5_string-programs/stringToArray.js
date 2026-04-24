@@ -41,3 +41,26 @@ const s = "apple, banana, cherry";
   a.push(s.slice(start));
   console.log(a);
 }
+
+// 4. Using Regular Expressions (RegExp) and match() Method
+
+{
+  const a = s.match(/[^,\s]+/g);
+  console.log(a);
+}
+
+// Handling Edge Cases
+
+// Case 1: Trailing Commas
+
+{
+  const a = s.split(",").filter((item) => item !== "");
+  console.log(a);
+}
+
+// Case 2: Extra Spaces
+
+{
+  const a = s.split(",").map((item) => item.trim());
+  console.log(a);
+}
