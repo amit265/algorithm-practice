@@ -1,6 +1,6 @@
 // 30. Convert String into Float
  
-// Method 1: By using Type Conversion of Javascript
+// Method 1: By using type Conversion of Javascript
 
 {
   function convert_to_float(a) {
