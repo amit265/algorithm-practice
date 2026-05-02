@@ -1,5 +1,5 @@
 // 30. Convert String into Float
- 
+
 // Method 1: By using type Conversion of Javascript
 
 {
@@ -17,7 +17,6 @@
 // Method 2: By using parseFloat() Method
 
 {
-
   function convert_to_float(a) {
     let floatValue = parseFloat(a);
     return floatValue;
@@ -29,6 +28,29 @@
 
   console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
   n = "-915.55";
+
+  n = convert_to_float(n);
+
+  console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
+}
+
+// Method 3: By using the eval() function
+
+{
+
+  function convert_to_float(a) {
+    
+    let floatValue = eval(a);
+    return floatValue;
+  }
+
+  let n = "55.225";
+
+  n = convert_to_float(n);
+
+  console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
+
+  n = "-33.565";
 
   n = convert_to_float(n);
 
