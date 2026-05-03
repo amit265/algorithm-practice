@@ -37,9 +37,7 @@
 // Method 3: By using the eval() function
 
 {
-
   function convert_to_float(a) {
-    
     let floatValue = eval(a);
     return floatValue;
   }
@@ -54,5 +52,39 @@
 
   n = convert_to_float(n);
 
+  console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
+}
+
+// Method 4: By using Number() constructor
+
+{
+  let stringNumber = "3.14";
+  let floatNumber = Number(stringNumber);
+  console.log(floatNumber); // Output: 3.14
+}
+
+// Method 5: By using Unary Plus Operator
+
+{
+  function convert_to_float(a) {
+    let floatValue = +a;
+    return floatValue;
+  }
+
+  //Driver code
+  let n = "123.456";
+
+  // Call function
+  n = convert_to_float(n);
+
+  // Print result
+  console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
+
+  n = "-789.012";
+
+  // Call function
+  n = convert_to_float(n);
+
+  // Print result
   console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
 }
