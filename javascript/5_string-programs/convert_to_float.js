@@ -55,7 +55,7 @@
   console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
 }
 
-// Method 4: By using Number() constructor
+// Method 4: By using Number() constructor 
 
 {
   let stringNumber = "3.14";
