@@ -71,13 +71,10 @@
     return floatValue;
   }
 
-  //Driver code
   let n = "123.456";
 
-  // Call function
   n = convert_to_float(n);
 
-  // Print result
   console.log("Converted value = " + n + " Type of " + n + " = " + typeof n);
 
   n = "-789.012";
