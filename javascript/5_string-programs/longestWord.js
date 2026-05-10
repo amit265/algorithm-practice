@@ -131,5 +131,33 @@
   );
 }
 
+// Approach 7: Using split() and Array.prototype.every() method
 
+{
+  function findLongestWord(str) {
+    // Split the string into an array of words
+    const words = str.split(" ");
 
+    // Initialize a variable to store the longest word
+    let longestWord = "";
+
+    // Use every() method to iterate through the array
+    words.every((word) => {
+      // If the current word's length is greater than longestWord's length
+      // update the longestWord
+      if (word.length > longestWord.length) {
+        longestWord = word;
+      }
+      // Return true to continue the loop
+      return true;
+    });
+
+    return longestWord;
+  }
+
+  console.log(
+    findLongestWord(
+      "Hello guys this is geeksforgeeks where students learn programming",
+    ),
+  );
+}
