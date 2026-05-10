@@ -60,7 +60,6 @@
 //  Approach 4: Using split() and for...loop
 
 {
-
   let longestWord = (string) => {
     let stringg = string.split(" ");
     let longest = 0;
@@ -79,4 +78,29 @@
       "Hello guys this is geeksforgeeks where students learn programming",
     ),
   );
+}
+
+// Approach 5: Using sort() method
+
+{
+  function findLongestWord(inputString) {
+    // Step 1: Split the string into an array of words
+    const wordsArray = inputString.split(/\s+/);
+
+    // Step 2: Sort the array based on word length
+    const sortedWords = wordsArray.sort(function (a, b) {
+      return b.length - a.length; // Sort in descending order by word length
+    });
+
+    // Step 3: Retrieve the longest word (first element after sorting)
+    const longestWord = sortedWords[0];
+
+    return longestWord;
+  }
+
+  // Example usage:
+  const inputString = "JavaScript is an awesome programming language";
+  const result = findLongestWord(inputString);
+
+  console.log("Longest word:", result);
 }
