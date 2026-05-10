@@ -34,3 +34,28 @@
     longest("Hello guys this is geekforgeeks" + " Where students learn"),
   );
 }
+
+// Approach 3: Using split() and reduce() methods
+
+{
+  function longest(str) {
+    str = str.split(" ");
+    let index = str.reduce((acc, curr, i) => {
+      if (curr.length > str[acc].length) {
+        return i;
+      }
+      return acc;
+    }, 0);
+
+    return str[index];
+  }
+
+  console.log(
+    longest(
+      "Hello guys this is geeksforgeeks" + " where students learn programming",
+    ),
+  );
+}
+
+
+// 
