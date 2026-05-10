@@ -104,3 +104,32 @@
 
   console.log("Longest word:", result);
 }
+
+// Approach 6: Using map() and reduce() methods
+
+{
+  function longestWord(str) {
+    // Split the string into an array of words
+    const words = str.split(" ");
+
+    // Use map() to create an array of objects containing each word and its length
+    const wordLengths = words.map((word) => ({ word, length: word.length }));
+
+    // Use reduce() to find the object with the maximum length
+    const longestWordObj = wordLengths.reduce((prev, current) => {
+      return prev.length > current.length ? prev : current;
+    });
+
+    // Return the word from the object with the maximum length
+    return longestWordObj.word;
+  }
+
+  console.log(
+    longestWord(
+      "Hello guys this is geeksforgeeks where students learn programming",
+    ),
+  );
+}
+
+
+
