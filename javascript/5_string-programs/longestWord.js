@@ -21,3 +21,16 @@
     ),
   );
 }
+
+// Approach 2: Using the split() and sort() method
+
+{
+  function longest(str) {
+    str = str.split(" ");
+    return str.sort((a, b) => b.length - a.length)[0];
+  }
+
+  console.log(
+    longest("Hello guys this is geekforgeeks" + " Where students learn"),
+  );
+}
