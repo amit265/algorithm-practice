@@ -144,3 +144,32 @@
 
   GFG_Fun();
 }
+
+// Approach 5: Using a Loop and substr()
+
+{
+  function getNthOccurrence(string, substring, n) {
+    let count = 0;
+    let position = 0;
+
+    while (count < n) {
+      position = string.indexOf(substring, position);
+
+      if (position === -1) {
+        return -1;
+      }
+
+      count++;
+      position++;
+    }
+
+    return position - 1;
+  }
+
+  const str = "the quick brown fox jumps over the lazy dog. the dog barks.";
+  const subStr = "the";
+  const nth = 2;
+
+  const result = getNthOccurrence(str, subStr, nth);
+  console.log(result);
+}
