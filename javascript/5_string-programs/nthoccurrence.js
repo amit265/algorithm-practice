@@ -173,3 +173,29 @@
   const result = getNthOccurrence(str, subStr, nth);
   console.log(result);
 }
+
+// Approach 6: Using Array.prototype.reduce() Method
+
+{
+  function getNthOccurrence(str, subStr, n) {
+    let count = 0;
+    let result = str.split(subStr).reduce((acc, part, index, array) => {
+      if (index < array.length - 1) {
+        count++;
+        if (count === n) {
+          acc = acc.length + part.length;
+        }
+        return acc + part + subStr;
+      }
+      return acc + part;
+    }, "");
+
+    return count >= n ? result.length - subStr.length : -1;
+  }
+
+  let str = "This is a test. This test is for testing.";
+  let subStr = "test";
+  let nth = 2;
+
+  console.log(getNthOccurrence(str, subStr, nth)); // Output: 25
+}
