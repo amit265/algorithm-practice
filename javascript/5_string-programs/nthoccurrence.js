@@ -1,6 +1,6 @@
 // 33. Get Nth Occurrence of a String
 
-// 33. Get Nth Occurrence of a String
+// Approach 1: Using split() and join() methods
 
 {
   // Input string
@@ -31,5 +31,40 @@
 
   GFG_Fun();
 }
+
+// Approach 2: Using indexOf() method
+
+// Input string
+let string = "Geeks gfg Geeks Geek Geeks gfg";
+
+// String to search
+let searchString = "Geeks";
+
+// occurrence number
+let occurrence = 3;
+console.log(
+  occurrence + "rd occurrence of a '" + searchString + "' in " + string + "'.",
+);
+
+// Function to get index of occurrence
+function getIndex(str, substr, ind) {
+  let Len = str.length,
+    i = -1;
+  while (ind-- && i++ < Len) {
+    i = str.indexOf(substr, i);
+    if (i < 0) break;
+  }
+  return i;
+}
+
+function GFG_Fun() {
+  console.log(getIndex(string, searchString, occurrence));
+}
+
+GFG_Fun();
+
+
+
+// Approach 3: Using regular expressions
 
 
