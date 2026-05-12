@@ -109,5 +109,38 @@
   }
 }
 
+// Approach 4: Using lastIndexOf() Method in a Loop
 
-// 
+{
+  // Input string
+  let string = "Geeks gfg Geeks Geek Geeks gfg";
+
+  // String to search
+  let searchString = "Geeks";
+
+  // occurrence number
+  let occurrence = 3;
+  console.log(
+    occurrence +
+      "rd occurrence of a '" +
+      searchString +
+      "' in " +
+      string +
+      "'.",
+  );
+
+  // Function to get index of occurrence
+  function getLastIndex(str, substr, occ) {
+    let index = str.length;
+    while (occ-- > 0 && index >= 0) {
+      index = str.lastIndexOf(substr, index - 1);
+    }
+    return index;
+  }
+
+  function GFG_Fun() {
+    console.log(getLastIndex(string, searchString, occurrence));
+  }
+
+  GFG_Fun();
+}
