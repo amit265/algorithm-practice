@@ -9,4 +9,11 @@
   console.log("String 2: " + res);
 }
 
+// Using JavaScript Split() and Join() Method
 
+{
+  let str = "A.Computer.Science.Portal";
+  let newStr = str.split(".").join(" ");
+  console.log("String 1: " + str);
+  console.log("String 2: " + newStr);
+}
