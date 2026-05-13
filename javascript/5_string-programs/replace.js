@@ -17,3 +17,16 @@
   console.log("String 1: " + str);
   console.log("String 2: " + newStr);
 }
+
+// Using JavaSccript reduce() Method and spread operator
+
+{
+  let str = "Geeks.for.Geeks";
+  let newStr = [...str].reduce((s, c) => (c === "." ? s : s + c));
+  console.log("String 1: " + str);
+  console.log("String 2: " + newStr);
+
+  console.log("String 1: " + str);
+
+  console.log("String: 2 " + newStr);
+}
