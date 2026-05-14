@@ -55,9 +55,39 @@
   }
 
   console.log("Using for loop", checkAnagram("abc", "cba"));
-    console.log("Using for loop", checkAnagram("abd", "cba"));
+  console.log("Using for loop", checkAnagram("abd", "cba"));
   console.log("Using for loop", checkAnagram("abc", "cb"));
-
 }
 
+// Approach 3: Using a Frequency map
 
+{
+  const areAnagrams = (str1, str2) => {
+    if (str1.length !== str2.length) return false;
+
+    const frequencyMap = (str) => {
+      const map = {};
+      for (let char of str) {
+        map[char] = (map[char] || 0) + 1;
+      }
+
+      return map;
+    };
+
+    console.log(frequencyMap(str1));
+    console.log(frequencyMap(str2));
+
+    const map1 = frequencyMap(str1);
+    const map2 = frequencyMap(str2);
+
+    for (let char in map1) {
+      if (map1[char] !== map2[char]) return false;
+    }
+
+    return true;
+  };
+
+  console.log(areAnagrams("listen", "silent"));
+
+  console.log(areAnagrams("hello", "world"));
+}
