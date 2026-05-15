@@ -108,3 +108,20 @@
   console.log(checkPattern("engineers rock", "egr"));
   console.log(checkPattern("engineers rock", "gsr"));
 }
+
+// Using Regular Expression:
+
+{
+  function followsPattern(str, pattern) {
+    const regex = new RegExp("^" + pattern.split("").join(".*") + "$");
+    return regex.test(str);
+  }
+
+  const str1 = "abc";
+  const pattern1 = "abc";
+  console.log(followsPattern(str1, pattern1));
+
+  const str2 = "xyz";
+  const pattern2 = "xzy";
+  console.log(followsPattern(str2, pattern2));
+}
