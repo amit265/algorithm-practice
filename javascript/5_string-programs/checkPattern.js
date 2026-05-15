@@ -80,3 +80,31 @@
   console.log(checkPattern("engineers rock", "egr"));
   console.log(checkPattern("engineers rock", "gsr"));
 }
+
+// Using Builtin Functions 'every', 'reduce', and 'split'
+
+{
+  function checkPattern(str, pattern) {
+    let words = str.split(" ");
+    if (words.length !== pattern.length) {
+      return false;
+    }
+
+    let patternToWord = pattern.split("").reduce((map, character, index) => {
+      if (!map.has(character)) {
+        map.set(character, words[index]);
+      } else if (map.get(character) !== words[index]) {
+        return false;
+      }
+      return map;
+    }, new Map());
+    let values = [...patternToWord.values()];
+    let ans = values.every((value, index) => value === words[index]);
+
+    return ans;
+  }
+
+  console.log(checkPattern("engineers rock", "er"));
+  console.log(checkPattern("engineers rock", "egr"));
+  console.log(checkPattern("engineers rock", "gsr"));
+}
