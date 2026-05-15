@@ -109,7 +109,7 @@
   console.log(checkPattern("engineers rock", "gsr"));
 }
 
-// Using Regular Expression:
+// Using Regular Expression
 
 {
   function followsPattern(str, pattern) {
@@ -125,3 +125,5 @@
   const pattern2 = "xzy";
   console.log(followsPattern(str2, pattern2));
 }
+
+
