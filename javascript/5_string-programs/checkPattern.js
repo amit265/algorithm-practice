@@ -53,3 +53,30 @@
   console.log(checkPattern("engineers rock", "egr"));
   console.log(checkPattern("engineers rock", "gsr"));
 }
+
+// Using JavaScript Map
+
+{
+  function checkPattern(str, pattern) {
+    let words = str.split(" ");
+    if (pattern.length !== words.length) return false;
+    let map1 = new Map();
+    let map2 = new Map();
+    for (let i = 0; i < pattern.length; i++) {
+      let key = pattern[i];
+      let value = words[i];
+      if (map1.has(key) || map2.has(value)) {
+        if (map1.get(key) !== value) return false;
+        if (map2.get(value) !== key) return false;
+      } else {
+        map1.set(key, value);
+        map2.set(value, key);
+      }
+    }
+    return true;
+  }
+
+  console.log(checkPattern("engineers rock", "er"));
+  console.log(checkPattern("engineers rock", "egr"));
+  console.log(checkPattern("engineers rock", "gsr"));
+}
