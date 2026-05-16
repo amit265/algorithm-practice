@@ -27,3 +27,26 @@ const email = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g;
   const str = "my email is amitk.kumar414@gmail.com";
   console.log(extract(str));
 }
+
+// Using String Matching and Validation
+
+{
+  function isValid(str) {
+    return email.test(str);
+  }
+
+  function extract(str) {
+    const words = str.split(" ");
+    const email = [];
+    for (const word of words) {
+      if (isValid(word)) {
+        email.push(word);
+      }
+    }
+
+    return email;
+  }
+
+  const str = "my email is amit@google.com";
+  console.log(extract(str));
+}
