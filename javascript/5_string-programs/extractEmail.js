@@ -2,12 +2,28 @@
 
 // Using Regular Expressions
 
+const email = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g;
+
 {
   function extract(str) {
-    const email = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g;
     return str.match(email);
   }
 
   const str = "My email address is amit@gmail.com";
+  console.log(extract(str));
+}
+
+// Splitting and Filtering
+
+{
+  function extract(str) {
+    const words = str.split(" ");
+    const valid = words.filter((word) => {
+      return email.test(word);
+    });
+    return valid;
+  }
+
+  const str = "my email is amitk.kumar414@gmail.com";
   console.log(extract(str));
 }
