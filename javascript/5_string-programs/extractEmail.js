@@ -50,3 +50,22 @@ const email = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g;
   const str = "my email is amit@google.com";
   console.log(extract(str));
 }
+
+
+
+
+// Using a Custom Parser
+
+
+{
+    function extractEmails(text){
+        const emails = [];
+        const words = text.split(/\s+/);
+
+        for(let word of words) {
+            if(word.includes('@')) && word.includes(".") ) {
+
+            }
+ {}        }
+    }
+}
