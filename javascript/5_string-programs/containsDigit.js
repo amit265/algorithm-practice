@@ -52,3 +52,16 @@
     console.log("The string does not contain any digits");
   }
 }
+
+
+//5. Using String.search() Method
+
+{
+    let s = "Hello 2026";
+    let digits = s.search(/\d/);
+    if(digits !== -1) {
+        console.log("The string contains digits", digits)
+    } else {
+        console.log("The string does not contain any digits")
+    }
+}
