@@ -40,3 +40,15 @@
     console.log("The string does not contains any digits");
   }
 }
+
+// 4. Using String.match() Method
+
+{
+  let s = "Hello 2024";
+  let digits = s.match(/\d/g);
+  if (digits) {
+    console.log("The string contains digits:", digits);
+  } else {
+    console.log("The string does not contain any digits");
+  }
+}
