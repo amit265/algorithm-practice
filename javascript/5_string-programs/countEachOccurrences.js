@@ -44,4 +44,16 @@
   console.log(count(s));
 }
 
+// Using reduce()
 
+{
+  const count = (s) => {
+    return [...s].reduce((obj, char) => {
+      obj[char] = (obj[char] || 0) + 1;
+      return obj;
+    }, {});
+  };
+
+  const s = "hello world";
+  console.log(count(s));
+}
