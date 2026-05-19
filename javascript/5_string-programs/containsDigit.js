@@ -60,7 +60,7 @@
     let s = "Hello 2026";
     let digits = s.search(/\d/);
     if(digits !== -1) {
-        console.log("The string contains digits", digits)
+        console.log("The string contains digits")
     } else {
         console.log("The string does not contain any digits")
     }
