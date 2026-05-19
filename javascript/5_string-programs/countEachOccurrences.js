@@ -73,5 +73,17 @@
   console.log(count(s)["h".charCodeAt(0)]);
 }
 
-
 // Using Regular Expressions
+
+{
+  const count = (s) => {
+    const obj = {};
+    for (const char of new Set(s)) {
+      obj[char] = (s.match(new RegExp(char, "g")) || []).length;
+    }
+    return obj;
+  };
+
+  const s = "hello world";
+  console.log(count(s));
+}
