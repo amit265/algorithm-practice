@@ -57,3 +57,21 @@
   const s = "hello world";
   console.log(count(s));
 }
+
+// Using Arrays and ASCII Mapping
+
+{
+  const count = (s) => {
+    const a = Array(256).fill(0);
+    for (const char of s) {
+      a[char.charCodeAt(0)]++;
+    }
+    return a;
+  };
+
+  const s = "hello";
+  console.log(count(s)["h".charCodeAt(0)]);
+}
+
+
+// Using Regular Expressions
