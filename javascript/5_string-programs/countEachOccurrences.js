@@ -73,7 +73,7 @@
   console.log(count(s)["h".charCodeAt(0)]);
 }
 
-// Using Regular Expression
+// Using Regular Expressionc
 
 {
   const count = (s) => {
