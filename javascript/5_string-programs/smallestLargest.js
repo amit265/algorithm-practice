@@ -76,3 +76,21 @@
   let inputStr = "ram is good boy";
   console.log(myFunction(inputStr));
 }
+
+//Using String.prototype.match() and Math functions
+
+{
+  function findSmallestAndLargestWord(str) {
+    const words = str.match(/\w+/g) || [];
+
+    const smallest = Math.min(...words.map((word) => word.length));
+    const largest = Math.max(...words.map((word) => word.length));
+    const smallestWord = words.find((word) => word.length === smallest);
+    const largestWord = words.find((word) => word.length === largest);
+
+    return { smallest: smallestWord, largest: largestWord };
+  }
+  const result = findSmallestAndLargestWord("This is a sample string");
+  console.log("Smallest word:", result.smallest); // Output: "a"
+  console.log("Largest word:", result.largest); // Output: "string"
+}
