@@ -94,3 +94,23 @@
   console.log("Smallest word:", result.smallest); // Output: "a"
   console.log("Largest word:", result.largest); // Output: "string"
 }
+
+// Using the sort() Method
+
+{
+  function myFunction(str) {
+    let words = str.match(/\b\w+\b/g);
+    if (!words || words.length === 0) {
+      return { smallest: "", largest: "" };
+    }
+
+    words.sort((a, b) => a.length - b.length);
+
+    let smallest = words[0];
+    let largest = words[words.length - 1];
+    return { smallest, largest };
+  }
+
+  let inputStr = "India is a diverse country";
+  console.log(myFunction(inputStr));
+}
