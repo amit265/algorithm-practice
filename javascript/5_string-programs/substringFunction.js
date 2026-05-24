@@ -41,3 +41,21 @@
   let str1 = "cde";
   console.log(substringFunction(str1));
 }
+
+//Approach 3: Using Nested Loops
+
+{
+  function substringFunction(input) {
+    let substrings = [];
+    for (let i = 0; i < input.length; i++) {
+      for (let j = i + 1; j <= input.length; j++) {
+        substrings.push(input.slice(i, j));
+      }
+    }
+
+    return substrings;
+  }
+
+  let str1 = "ijk";
+  console.log(substringFunction(str1));
+}
