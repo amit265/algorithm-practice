@@ -59,3 +59,21 @@
   let str1 = "ijk";
   console.log(substringFunction(str1));
 }
+
+// Approach 4: Using the `slice()` method
+
+{
+  function getAllSubStrings(str) {
+    const substrings = [];
+    for (let i = 0; i < str.length; i++) {
+      for (let j = i + 1; j <= str.length; j++) {
+        substrings.push(str.slice(i, j));
+      }
+    }
+
+    return substrings;
+  }
+
+  const string = "klmn";
+  console.log(getAllSubStrings(string));
+}
