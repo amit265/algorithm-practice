@@ -21,5 +21,23 @@
   console.log(result);
 }
 
+// Approach 2: Using Array.reduce() and Array.concat() Methods
 
+{
+  function substringFunction(input) {
+    return input
+      .split("")
+      .reduce(
+        (substrings, _, i) =>
+          substrings.concat(
+            Array.from({ length: input.length - i }, (_, j) =>
+              input.slice(i, i + j + 1),
+            ),
+          ),
+        [],
+      );
+  }
 
+  let str1 = "cde";
+  console.log(substringFunction(str1));
+}
