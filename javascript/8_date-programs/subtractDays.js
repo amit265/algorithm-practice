@@ -1,4 +1,4 @@
-// 1. Subtract Days from Date Object
+// 1. Subtract Days from Date Object 
 
 {
   let today = new Date();
